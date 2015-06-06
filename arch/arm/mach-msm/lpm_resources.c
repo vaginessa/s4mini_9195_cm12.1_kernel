@@ -47,7 +47,7 @@ static bool msm_lpm_get_rpm_notif = true;
 
 /*Macros*/
 #define VDD_DIG_ACTIVE		(5)
-#define VDD_MEM_ACTIVE		(1050000)
+#define VDD_MEM_ACTIVE		(1000000)
 #define MAX_RS_NAME		(16)
 #define MAX_RS_SIZE		(4)
 #define IS_RPM_CTL(rs) \
