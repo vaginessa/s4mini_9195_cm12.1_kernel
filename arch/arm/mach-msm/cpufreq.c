@@ -311,7 +311,7 @@ int msm_cpufreq_set_freq_limits(uint32_t cpu, uint32_t min, uint32_t max)
 EXPORT_SYMBOL(msm_cpufreq_set_freq_limits);
 
 #ifdef CONFIG_CPU_UNDERCLOCK
-#define UC_FREQ_MIN 81000
+#define UC_FREQ_MIN 162000
 #endif
 
 #ifdef CONFIG_CPU_OVERCLOCK
